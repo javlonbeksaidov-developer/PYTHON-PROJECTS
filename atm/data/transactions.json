@@ -1,0 +1,38 @@
+[
+    {
+        "id": "1d3842d6-30d9-4f71-82d1-88ff93f44cf8",
+        "time": "2026-07-17 17:40:26.095776",
+        "O'tkazuvchi": "Ali Valiyev",
+        "Qabul qiluvchi": "Saidov Javlon",
+        "Pul miqdori": 2000,
+        "Karta raqamdan": "1111 1111 1111 1111",
+        "Karta raqamga": "0000 0000 0000 0000"
+    },
+    {
+        "id": "c6c6334b-84cd-4a86-830b-5f9b62b91020",
+        "time": "2026-07-17 17:42:11.644262",
+        "O'tkazuvchi": "Ali Valiyev",
+        "Karta raqamdan": "1111 1111 1111 1111",
+        "Qabul qiluvchi": "Husanov Hasan",
+        "Karta raqamga": "8600 1901 2615 6359",
+        "Pul miqdori": 1000
+    },
+    {
+        "id": "125ca4c2-347d-4c8a-80c1-2c2f3c37daee",
+        "time": "2026-07-17 17:43:34.915536",
+        "O'tkazuvchi": "Hasan Husanov",
+        "Karta raqamdan": "8600 1901 1265 2691",
+        "Qabul qiluvchi": "Valiyev Ali",
+        "Karta raqamga": "1111 1111 1111 1111",
+        "Pul miqdori": 1000
+    },
+    {
+        "id": "134e23a4-6160-40e4-8582-5a976556843c",
+        "time": "2026-07-17 18:07:11.105045",
+        "O'tkazuvchi": "Javlon Saidov",
+        "Karta raqamdan": "8600 1901 4097 2904",
+        "Qabul qiluvchi": "Husanov Hasan",
+        "Karta raqamga": "8600 1901 1265 2691",
+        "Pul miqdori": 300
+    }
+]

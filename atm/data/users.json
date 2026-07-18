@@ -1,0 +1,50 @@
+[
+    {
+        "id": "779e2dc7-a0c1-4d42-98f0-28b83e0d677f",
+        "first_name": "ali",
+        "last_name": "valiyev",
+        "phone": "991237654",
+        "card_number": "1111 1111 1111 1111",
+        "password": "12345678",
+        "role": "user",
+        "status": "active",
+        "balance": 37778,
+        "created_at": "2026-07-17T13:18:37.237576"
+    },
+    {
+        "id": "545beb92-bbcf-4754-8281-75a450555522",
+        "first_name": "javlon",
+        "last_name": "saidov",
+        "phone": "943600928",
+        "card_number": "0000 0000 0000 0000",
+        "password": "12341234",
+        "role": "admin",
+        "status": "active",
+        "balance": 7722,
+        "created_at": "2026-07-17T15:07:23.374305"
+    },
+    {
+        "id": "9c15599e-49e9-4ae8-9fce-f9cd9f9d9406",
+        "first_name": "hasan",
+        "last_name": "husanov",
+        "phone": "901234567",
+        "card_number": "8600 1901 2615 6359",
+        "password": "12345678",
+        "role": "user",
+        "status": "active",
+        "balance": 4945,
+        "created_at": "2026-07-17T15:08:09.391763"
+    },
+    {
+        "id": "d8f4b879-7da8-424d-b4a6-4e948340bd51",
+        "first_name": "hasan",
+        "last_name": "husanov",
+        "phone": "991234567",
+        "card_number": "8600 1901 1265 2691",
+        "password": "12345678",
+        "role": "user",
+        "status": "active",
+        "balance": 7855,
+        "created_at": "2026-07-17"
+    }
+]
