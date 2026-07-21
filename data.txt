@@ -4,7 +4,9 @@ Loyihalar ro'yxati
 2. bmi calculator       # 15.06.2026
 3. random number        # 16.06.2026
 4. tub son              # 16.06.2026
-4. parol generator      # 18.06.2026
-5. file juft-toq        # 19.06.2026
-6. davlat topish        # 21.06.2026
-7. tosh-qaychi-qogoz    # 21.06.2026
+5. parol generator      # 18.06.2026
+6. file juft-toq        # 19.06.2026
+7. davlat topish        # 21.06.2026
+8. tosh-qaychi-qogoz    # 21.06.2026
+9. atm                  # 18.07.2026
+10. requsts-project-1   # 21.07.2026
