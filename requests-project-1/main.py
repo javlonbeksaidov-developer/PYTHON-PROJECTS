@@ -1,7 +1,8 @@
-from menu import menu, choose, page_download_menu, search_author_menu, search_tag_menu
+from statistics import author, quote, statistics, tags
+
+from menu import choose, menu, page_download_menu, search_author_menu, search_tag_menu
 from scraper import scraper
 from search import search_author, search_tag
-from statistics import statistics, author, tags, quote
 
 
 def main():

@@ -1,47 +1,47 @@
-
-'''
+"""
 Parol generator function
 
 1. 8tadan kam bo'lmagan parollarni genaratsiyalab beradi.
 2. belgi, harf va raqam
 3. random , while, if-elif-else
-'''
+"""
 
 import random
 
-def belgi(belgi_soni : int):
+
+def belgi(belgi_soni: int):
     belgi_ombori = "-_!@#$%^&*()+[]/|;:,.<>?"
     belgilar = ""
     for i in range(belgi_soni):
         random_belgi = belgi_ombori[random.randint(0, len(belgi_ombori) - 1)]
         belgilar += random_belgi
         i += 1
-    
+
     return belgilar
 
 
-def harf(harflar_soni : int):
+def harf(harflar_soni: int):
     harf_ombori = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
     harflar = ""
     for i in range(harflar_soni):
         random_harf = harf_ombori[random.randint(0, len(harf_ombori) - 1)]
         harflar += random_harf
         i += 1
-    
+
     return harflar
 
 
-def raqam(raqamlar_soni : int):
+def raqam(raqamlar_soni: int):
     raqam_ombori = "0123456789"
     raqamlar = ""
     for i in range(raqamlar_soni):
         random_raqam = raqam_ombori[random.randint(0, len(raqam_ombori) - 1)]
         raqamlar += random_raqam
-    
+
     return raqamlar
 
 
-def password_random(number : int):
+def password_random(number: int):
 
     belgi_soni = random.randint(1, number - 2)
     son = number - belgi_soni
@@ -71,10 +71,9 @@ def password_random(number : int):
     return tayyor_parol
 
 
-
 def main():
     print("Parolning uzunligini kiriting (8 dan).\n Tark etish uchun (0)")
-    
+
     while True:
         number = int(input("Belgilar soni:"))
         if number == 0:
@@ -85,5 +84,6 @@ def main():
         else:
             result = password_random(number)
             print(f"Sizning xavfsiz parolingiz: {result}")
+
 
 main()

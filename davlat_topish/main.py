@@ -8,7 +8,9 @@ muallif : Saidov Javlon
 '''
 
 import random
+
 from davlatlar import davlatlar
+
 
 def davlatni_ol():
     ''' davlatlar.py faylidan davlat nomini oladi '''
@@ -19,9 +21,7 @@ def display(user_letters, davlat):
     ''' random davlat vs foydalanuvchi kiritgan davlat '''
     display_letter = ""
     for letter in davlat:
-        if letter == " " or letter == "-" or letter == "'":
-            display_letter += letter
-        elif letter in user_letters:
+        if letter == " " or letter == "-" or letter == "'" or letter in user_letters:
             display_letter += letter
         else:
             display_letter += "*"

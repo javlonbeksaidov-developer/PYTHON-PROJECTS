@@ -1,5 +1,6 @@
 from json_service import load
 
+
 def search_author(author):
     database = load()
 

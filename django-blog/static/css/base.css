@@ -1,0 +1,22 @@
+
+header {
+    border-bottom: 1px solid #999;
+    display: flex;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+
+header h1 a {
+    color: aqua;
+    text-decoration: none;
+}
+
+.post-entry {
+    color: rgb(43, 226, 49);
+}
+.post-entry h2 a{
+    text-decoration: none;
+}

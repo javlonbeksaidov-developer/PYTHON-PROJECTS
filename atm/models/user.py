@@ -1,5 +1,6 @@
-from uuid import uuid4
 from datetime import datetime
+from uuid import uuid4
+
 from utils.generator import card_number_generator
 
 
@@ -14,7 +15,7 @@ class User:
         self.role = "user"
         self.status = "active"
         self.balance = 0
-        self.created_at = datetime.now()
+        self.created_at = datetime.now()  # noqa: DTZ005
 
     @property
     def id(self):

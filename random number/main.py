@@ -1,5 +1,4 @@
-
-'''
+"""
 computer random number game
 
 1. random kutubxonasi
@@ -8,9 +7,10 @@ computer random number game
 4. def - funksiya
 5. hisoblagich (attempt)
 6. ball tizimi (ball)
-'''
+"""
 
 from random import randint
+
 
 def check(number, guess):
     if guess > number:
@@ -23,7 +23,7 @@ def check(number, guess):
 
 def main():
     print("Kompyuter 1 dan 100 gacha son o'yladi. Toping!")
-    
+
     number = randint(1, 100)
     print(number)
 
@@ -58,8 +58,9 @@ def main():
         if guess == number:
             print(f"{urinish} ta urinishda topdingiz. Sizning ballingiz {ball}.")
             break
-        
+
         qadam -= 1
         ball -= 10
+
 
 main()

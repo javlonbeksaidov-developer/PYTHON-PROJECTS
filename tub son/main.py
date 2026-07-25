@@ -1,25 +1,24 @@
-
-'''
+"""
 Prime Number Checker
 
 1. Kiritilgan sonni tub son yoki murakkab son ekanligini aniqlaydi.
 2. Kiritilgan sonni bo'luvchilarini aniqlaydi.
 3. Kiritilgan songacha bo'lgan tub sonlar ro'yhatini aniqlaydi.
-'''
+"""
+
 
 def tubmi(son):
     if son <= 1:
         return False
-    
+
     count = 1
     stop = int(pow(son, 0.5))
     for i in range(1, stop + 1):
         if son % i == 0:
-            count += 1        
+            count += 1
 
-    if count == 2:
-        return True
-    return False
+    return count == 2
+
 
 def buluvchi(son):
     count = 1
@@ -29,6 +28,7 @@ def buluvchi(son):
             count += 1
             buluvchi = buluvchi + ", " + str(i)
     return f"{son} son bo'luvchilari ({buluvchi}).\n Jami bo'luvchilar soni {count}ta"
+
 
 def tub_sonlar(son):
     tub_sonlar_list = []
@@ -61,5 +61,6 @@ def main():
 
         print(buluvchi(son))
         print(tub_sonlar(son))
+
 
 main()
