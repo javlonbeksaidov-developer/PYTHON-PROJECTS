@@ -20,6 +20,7 @@ Yangi loyihalar yaratilgan sanasi bo'yicha ketma-ketlikda qo'shib boriladi.
 | **08** | `tosh-qaychi-qogoz` | Kompyuter bilan tosh-qaychi-qogoz topish o'yini | Python (random, while, if-elif-else) | 21.06.2026 |
 | **09** | `atm` | atm boshqaruv tizimi | Python (random, while, if-elif-else, modullar, class, .json va .txt) | 18.07.2026 |
 | **10** | `requests-project-1` | requsts va beautifulsoup4 kutubxonalaridan foydalanish | Python (venv, while-for, if, requests, beautifulsoup4, .json) | 21.07.2026 |
+| **11** | `Library-management-system-cli` | oop dan foydalanib kutubxona boshqaruvi CLI dastur | Python (class, while-for, if, random, venv, .json) | 26.07.2026 |
 ---
 
 ## 🛠 Qanday ishga tushirish mumkin?
