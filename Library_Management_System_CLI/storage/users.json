@@ -1,0 +1,67 @@
+[
+    {
+        "id": "000000",
+        "name": "javlon",
+        "surname": "saidov",
+        "phone": "943600928",
+        "year": 2005,
+        "role": "admin",
+        "status": "active",
+        "password": "12341234",
+        "borrow_books": [],
+        "date": "2026-07-25 17:33:40.156690"
+    },
+    {
+        "id": "921455",
+        "name": "yashnar",
+        "surname": "obidov",
+        "phone": "881234567",
+        "year": 2005,
+        "role": "user",
+        "status": "active",
+        "password": "12341234",
+        "borrow_books": [],
+        "date": "2026-07-25 17:42:21.706738"
+    },
+    {
+        "id": "911692",
+        "name": "shoxrux",
+        "surname": "jumayev",
+        "phone": "777777777",
+        "year": 2006,
+        "role": "user",
+        "status": "block",
+        "password": "12341234",
+        "borrow_books": [],
+        "date": "2026-07-25 21:16:24.879620"
+    },
+    {
+        "id": "996012",
+        "name": "husni",
+        "surname": "husanov",
+        "phone": "981234567",
+        "year": 2006,
+        "role": "user",
+        "status": "active",
+        "password": "12341234",
+        "borrow_books": [
+            {
+                "id": "9960",
+                "title": "anor",
+                "category": "sad",
+                "year": 2009,
+                "status": "rent",
+                "date": "2026-07-25 22:38:54.645196"
+            },
+            {
+                "id": "6365",
+                "title": "kuchuk",
+                "category": "happy",
+                "year": 2003,
+                "status": "rent",
+                "date": "2026-07-25 22:56:24.040799"
+            }
+        ],
+        "date": "2026-07-25 21:24:05.255268"
+    }
+]
