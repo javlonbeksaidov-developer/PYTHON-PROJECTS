@@ -12,8 +12,8 @@ from menu.menu_admin import (
 from menu.menu_student import menu_student
 from menu.menu_teacher import menu_teacher
 from services.auth_service import login
-from utils.validator import input_text
 from services.student_service import add_student
+from utils.validator import input_text
 
 
 def main():
