@@ -11,3 +11,4 @@ Loyihalar ro'yxati
 9. atm                              # 18.07.2026
 10. requsts-project-1               # 21.07.2026
 11. Library-management-system-cli   # 26.07.2026
+12. education-center-cli            # 28.07.2026
