@@ -13,6 +13,7 @@ from menu.menu_student import menu_student
 from menu.menu_teacher import menu_teacher
 from services.auth_service import login
 from utils.validator import input_text
+from services.student_service import add_student
 
 
 def main():
@@ -33,19 +34,57 @@ def main():
                     elif choice == '1':
                         pass
                     elif choice == '2':
-                        print(menu_admin_students())
+                        while True:
+                            print(menu_admin_students())
+                            choice = input_text(">>> ")
+                            if choice == '0':
+                                break
+                            elif choice == '1':
+                                print(add_student(user))
+
+
                     elif choice == '3':
-                        print(menu_admin_teachers())
+                        while True:
+                            print(menu_admin_teachers())
+                            choice = input_text(">>> ")
+                            if choice == '0':
+                                break
+
                     elif choice == '4':
-                        print(menu_admin_courses())
+                        while True:
+                            print(menu_admin_courses())
+                            choice = input_text(">>> ")
+                            if choice == '0':
+                                break
+
                     elif choice == '5':
-                        print(menu_admin_groups())
+                        while True:
+                            print(menu_admin_groups())
+                            choice = input_text(">>> ")
+                            if choice == '0':
+                                break
+
                     elif choice == '6':
-                        print(menu_admin_payments())
+                        while True:
+                            print(menu_admin_payments())
+                            choice = input_text(">>> ")
+                            if choice == '0':
+                                break
+
                     elif choice == '7':
-                        print(menu_admin_attendance())
+                        while True:
+                            print(menu_admin_attendance())
+                            choice = input_text(">>> ")
+                            if choice == '0':
+                                break
+
                     elif choice == '8':
-                        print(menu_admin_reports())
+                        while True:
+                            print(menu_admin_reports())
+                            choice = input_text(">>> ")
+                            if choice == '0':
+                                break
+
                     else:
                         print("Xato. Noto'g'ri bo'lim.")
 

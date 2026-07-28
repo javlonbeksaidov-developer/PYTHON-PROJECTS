@@ -2,7 +2,7 @@ import random
 
 from database.json_service import load, save
 
-data_id = "ids.json"
+data_id = "data/ids.json"
 
 
 def id_generator(number):

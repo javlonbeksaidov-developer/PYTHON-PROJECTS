@@ -4,13 +4,13 @@ from utils.generator import id_generator
 
 
 class User:
-    def __init__(self, name, surname, username, phone, password):
+    def __init__(self, name, surname, username, phone):
         self.id = id_generator(6)
-        self.name = (name,)
-        self.surname = (surname,)
-        self.username = (username,)
-        self.phone = (phone,)
-        self.password = (password,)
+        self.name = name
+        self.surname = surname
+        self.username = username
+        self.phone = phone
+        self.password = '12345678'
         self.status = "active"  # 'active' or 'block'
         self.created_at = datetime.now()  # noqa: DTZ005
 
@@ -23,5 +23,5 @@ class User:
             "phone": self.phone,
             "password": self.password,
             "status": self.status,
-            "created_at": str(self.created_at),
+            "created_at": self.created_at.isoformat(),
         }

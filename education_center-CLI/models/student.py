@@ -2,19 +2,19 @@ from models.user import User
 
 
 class Student(User):
-    def __init__(self, name, surname, username, phone, password, group_id, balance=0):
-        super().__init__(name, surname, username, phone, password)
-        self.group_id = group_id
-        self.balance = balance
+    def __init__(self, name, surname, username, phone):
+        super().__init__(name, surname, username, phone)
+        self.group_id = []
+        self.balance = 0
         self.role = "student"
 
     def to_dict(self):
         data = super().to_dict()
 
-        data.update = {
+        data.update({
             "role": self.role,
             "group_id": self.group_id,
-            "balance": self.balance,
-        }
+            "balance": self.balance
+        })
 
         return data

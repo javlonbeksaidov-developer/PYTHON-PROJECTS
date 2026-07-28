@@ -29,7 +29,7 @@ def menu_admin_students():
 3. Search Student
 4. Update Student
 5. Delete Student
-6. Student Details
+6. Student Block / Active
 0. Back
 """
     return menu
