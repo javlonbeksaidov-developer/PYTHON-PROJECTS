@@ -1,0 +1,27 @@
+from datetime import datetime
+
+from utils.generator import id_generator
+
+
+class User:
+    def __init__(self, name, surname, username, phone, password):
+        self.id = id_generator(6)
+        self.name = (name,)
+        self.surname = (surname,)
+        self.username = (username,)
+        self.phone = (phone,)
+        self.password = (password,)
+        self.status = "active"  # 'active' or 'block'
+        self.created_at = datetime.now()  # noqa: DTZ005
+
+    def to_dict(self):
+        return {
+            "id": self.id,
+            "name": self.name,
+            "surname": self.surname,
+            "username": self.username,
+            "phone": self.phone,
+            "password": self.password,
+            "status": self.status,
+            "created_at": str(self.created_at),
+        }
