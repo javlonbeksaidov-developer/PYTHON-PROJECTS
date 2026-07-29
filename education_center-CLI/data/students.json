@@ -1,18 +1,5 @@
 [
     {
-        "id": "219983",
-        "name": "javlonbek",
-        "surname": "saidov",
-        "username": "javlon01",
-        "phone": "991234567",
-        "password": "12345678",
-        "status": "active",
-        "created_at": "2026-07-28",
-        "role": "student",
-        "group_id": [],
-        "balance": 0
-    },
-    {
         "id": "678237",
         "name": "shoxrux",
         "surname": "jumayev",
@@ -27,12 +14,12 @@
     },
     {
         "id": "244845",
-        "name": "olim",
+        "name": "olimjon",
         "surname": "hakimov",
-        "username": "olimhakimov",
-        "phone": "991234567",
+        "username": "olimjonhakimov",
+        "phone": "981234567",
         "password": "12345678",
-        "status": "active",
+        "status": "block",
         "created_at": "2026-07-29",
         "role": "student",
         "group_id": [],
