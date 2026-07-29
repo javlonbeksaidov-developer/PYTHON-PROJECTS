@@ -13,8 +13,3 @@ def menu_start():
 0. Exit
 """
     return menu
-
-
-
-
-

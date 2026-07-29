@@ -19,7 +19,7 @@ def id_generator(number):
             id = random.randint(start, stop)
 
             id_dict = {
-                "id": id,
+                "id": str(id),
             }
             data.append(id_dict)
             save(data_id, data)

@@ -35,3 +35,19 @@ def add_user_input():
                 break
 
     return name, surname, username, phone
+
+
+def add_teacher_input():
+    while True:
+        try:
+            salary = float(input("Salary: "))
+            break
+        except ValueError:
+            print("Iltimos, butun son kiriting.")
+
+    speciality = input("Speciality: ")
+    return salary, speciality
+
+
+def search_input(message):
+    return input(message)
